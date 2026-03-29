@@ -1,0 +1,19 @@
+# Dependency directories
+node_modules
+/jspm_packages
+
+# Build outputs
+.next
+/out
+/build
+
+# Debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Other
+.DS_Store
+*.pem
+
+# Note: .env.local is specifically NOT included as per user request.
