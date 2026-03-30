@@ -79,8 +79,8 @@ export default function FunnelPage() {
                   <select className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-blue-500" value={formData.revenue} onChange={(e) => setFormData({...formData, revenue: e.target.value})}>
                     <option value="" className="bg-black text-gray-400">Select...</option>
                     <option value="<10k" className="bg-black">Under ₹10L</option>
-                    <option value="10k-50k" className="bg-black">₹10L - ₹50L</option>
-                    <option value=">50k" className="bg-black">₹50L+</option>
+                    <option value="10k-50k" className="bg-black">制10L - ₹50L</option>
+                    <option value=">50k" className="bg-black">制50L+</option>
                   </select>
                 </div>
                 <div>

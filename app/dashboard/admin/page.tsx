@@ -16,7 +16,6 @@ export default function AdminDashboard() {
 
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
         <div className="bg-gradient-to-br from-blue-900/40 to-black border border-blue-500/30 p-6 rounded-2xl">
-          <p className="text-sm text-gray-400 mb-1">MRR (Mocked)</p>
           <p className="text-3xl font-bold text-white">₹4.5L</p>
         </div>
         <div className="bg-white/5 border border-white/10 p-6 rounded-2xl">
